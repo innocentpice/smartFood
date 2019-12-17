@@ -1,0 +1,13 @@
+* {
+    font-family: 'Prompt', sans-serif;
+}
+#nav-toggle-state {
+    display: none;
+}
+
+#nav-toggle-state:checked ~ .nav-right.nav-menu {
+    display: block;
+}
+#nav-toggle-state ~ .nav-right.nav-menu {
+    display: none;
+}
